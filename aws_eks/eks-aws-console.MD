@@ -8,7 +8,13 @@ AWS VPC to create and secure the network for the Clusters. But this is optional 
 AWS EKS to create the cluster
 Github source code management tool and version control system
 
-test
+AWS CloudFormation to write the codes and do deployments
+AWS S3 for storage of the codes before deploying to the AWS console
+AWS IAM to grant roles and permissions for the services
+AWS VPC to create and secure the network for the Clusters. But this is optional you might have existing VPC in your environment that meets specific requirement.
+AWS EKS to create the cluster
+Github source code management tool and version control system
+
 ### 1. Create an IAM Role
  Create an IAM Role for EKS Cluster using cloud formation template - eksClusterRole
  https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html
