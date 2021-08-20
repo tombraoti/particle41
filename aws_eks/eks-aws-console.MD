@@ -1,17 +1,17 @@
 # Create a EKS Cluster using AWS account
 
 # The tools needed for this simulation in AWS includes the following
-AWS CloudFormation to write the codes and do deployments
+AWS CloudFormation: To write the codes and do deployments.
 
-AWS S3 for storage of the codes before deploying to the AWS console
+AWS S3: For storage of the codes before deploying to the AWS console.
 
-AWS IAM to grant roles and permissions for the services
+AWS IAM: To grant roles and permissions for the services.
 
-AWS VPC to create and secure the network for the Clusters. But this is optional you might have existing VPC in your environment that meets specific requirement.
+AWS VPC: To create and secure the network for the Clusters. But this is optional you might have existing VPC in your environment that meets specific requirement.
 
-AWS EKS to create the cluster
+AWS EKS: To create the cluster.
 
-Github source code management tool and version control system
+Github: Source Code Management Tool and Version control system.
 
 
 ### 1. Create an IAM Role
